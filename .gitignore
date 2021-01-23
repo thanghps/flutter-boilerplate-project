@@ -71,3 +71,12 @@ build/
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 .flutter-plugins-dependencies
 ios/Flutter/flutter_export_environment.sh
+
+# Hide Generated Files
+*.inject.summary
+*.inject.dart
+*.g.dart
+
+# gradle
+.gradle
+local.properties
